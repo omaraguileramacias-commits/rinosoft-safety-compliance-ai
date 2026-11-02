@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RINOSOFT Safety & Compliance AI</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>👷 RINOSOFT</h2>
+            <p>Safety & Compliance AI</p>
+        </div>
+
+        <ul>
+            <li>🏠 Inicio</li>
+            <li>📚 Normatividad</li>
+            <li>✅ Checklists</li>
+            <li>⚠️ Riesgos</li>
+            <li>📝 Auditorías</li>
+            <li>🤖 Consultar IA</li>
+            <li>📊 Reportes</li>
+        </ul>
+
+    </aside>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <h1>👷 RINOSOFT Safety & Compliance AI</h1>
+
+            <p>
+                Plataforma Inteligente de Seguridad Industrial y Cumplimiento Normativo
+            </p>
+
+        </section>
+
+        <!-- KPI -->
+        <section class="cards">
+
+            <div class="card">
+                <h3>Normas Integradas</h3>
+                <span>5</span>
+            </div>
+
+            <div class="card">
+                <h3>Modelo IA</h3>
+                <span>GPT-6.1-SOL</span>
+            </div>
+
+            <div class="card">
+                <h3>Búsqueda</h3>
+                <span>Azure AI Search</span>
+            </div>
+
+            <div class="card">
+                <h3>Estado</h3>
+                <span>Operativo</span>
+            </div>
+
+        </section>
+
+        <!-- NORMAS -->
+        <section class="normas">
+
+            <h2>Normas Integradas</h2>
+
+            <div class="norma-grid">
+
+                <div class="norma">NOM-017-STPS</div>
+
+                <div class="norma">NOM-019-STPS</div>
+
+                <div class="norma">NOM-026-STPS</div>
+
+                <div class="norma">NOM-030-STPS</div>
+
+                <div class="norma">NOM-035-STPS</div>
+
+            </div>
+
+        </section>
+
+        <!-- CONSULTAS RÁPIDAS -->
+        <section class="quick-panel">
+
+            <h2>Consultas sugeridas</h2>
+
+            <div class="quick-buttons">
+
+                <button onclick="setQuestion('¿Qué establece la NOM-017-STPS sobre el equipo de protección personal?')">
+                    NOM-017-STPS
+                </button>
+
+                <button onclick="setQuestion('¿Cuáles son las obligaciones del patrón?')">
+                    Obligaciones del patrón
+                </button>
+
+                <button onclick="setQuestion('Genera una checklist de auditoría')">
+                    Checklist
+                </button>
+
+                <button onclick="setQuestion('Identifica riesgos de incumplimiento')">
+                    Riesgos
+                </button>
+
+                <button onclick="setQuestion('Genera un plan de acción correctiva')">
+                    Plan de acción
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- CHAT -->
+        <section class="chat-container">
+
+            <h2>Asistente IA</h2>
+
+            <textarea
+                id="question"
+                placeholder="Escribe tu consulta aquí..."
+            ></textarea>
+
+            <button class="ask-btn" onclick="sendQuestion()">
+                Consultar
+            </button>
+
+            <div id="response">
+
+                <h3>Bienvenido</h3>
+
+                <p>
+                    Estoy listo para ayudarte a interpretar normas STPS,
+                    generar auditorías, identificar riesgos y elaborar
+                    planes de acción para Seguridad Industrial.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                RINOSOFT Safety & Compliance AI
+            </p>
+
+            <small>
+                Azure AI Foundry + Azure AI Search + RAG + GPT-6.1-SOL
+            </small>
+
+        </footer>
+
+    </main>
+
+</div>
+
+app.jsscript>
+
+</body>
+
+</html>
